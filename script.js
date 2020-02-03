@@ -1,5 +1,5 @@
 var addButton = document.getElementById("add-button");
-addButton.addEventListenerr("click, addToDoItem");
+addButton.addEventListener("click, addToDoItem");
 function addToDoItem() {
   alert("Add button clicked!");
 }
